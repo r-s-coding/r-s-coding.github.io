@@ -33,6 +33,6 @@ $(document).ready(function () {
         // Wait for 3 seconds before resetting the form
         setTimeout(function () {
             $("#contact-form")[0].reset();
-        }, 500);
+        }, 3000);
     });
 });
