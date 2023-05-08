@@ -28,4 +28,11 @@ $(document).ready(function () {
         $('.navbar-collapse').collapse('hide');
     });
 
-}) 
+    // Submit form and reset after a delay
+    $("#contact-form").submit(function (e) {
+        // Wait for 3 seconds before resetting the form
+        setTimeout(function () {
+            $("#contact-form")[0].reset();
+        }, 500);
+    });
+});

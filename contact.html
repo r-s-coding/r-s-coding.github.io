@@ -38,22 +38,24 @@
     </nav>
 
     <div class="container mt-5 text-white px-5" style="flex-grow: 1;">
-        <form>
+        <form id="contact-form"
+        action="https://formbold.com/s/6QrR8"
+        method="POST">
             <div class="mb-3 ">
                 <label for="name" class="form-label">Name</label>
-                <textarea class="form-control bg-primary text-white" id="name" style="height: 38px;" required></textarea>
+                <textarea class="form-control bg-primary text-white" name="name" style="height: 38px;" required></textarea>
             </div>
             <div class="mb-3">
                 <label for="email" class="form-label">Email Address</label>
-                <input type="email" class="form-control bg-primary text-white" id="email" required>
+                <input type="email" class="form-control bg-primary text-white" name="email" required>
             </div>
             <div class="mb-3">
                 <label for="subject" class="form-label">Email Subject</label>
-                <textarea class="form-control bg-primary text-white" id="subject" style="height: 38px;" required></textarea>
+                <textarea class="form-control bg-primary text-white" name="subject" style="height: 38px;" required></textarea>
             </div>
             <div class="mb-3">
                 <label for="message" class="form-label">Your Message</label>
-                <textarea class="form-control bg-primary text-white" id="message" rows="4" required></textarea>
+                <textarea class="form-control bg-primary text-white" name="message" rows="4" required></textarea>
             </div>
             <button type="submit" class="btn btn-bd-primary">Submit</button>
         </form>
