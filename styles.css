@@ -1,0 +1,73 @@
+:root {
+    --bs-border-color: rgba(103, 108, 219, 1);
+}
+
+.hero-img {
+    background-image: url(images/hero2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-primary {
+    background-color: rgba(34, 42, 54, 1) !important;
+}
+
+.bg-secondary {
+    background: rgba(34, 42, 54, 0.95) !important;
+}
+
+.bg-tertiary {
+    background-color: rgba(103, 108, 219, 1);
+}
+
+.text-secondary {
+    color: rgba(34, 42, 54, 0.95) !important;
+}
+
+.text-tertiary {
+    color: rgba(103, 108, 219, 1);
+}
+
+.border-tertiary {
+    border-color: rgba(103, 108, 219, 1);
+}
+
+.text-bg-primary {
+    background-color: rgba(196, 196, 196, 1) !important;
+}
+
+.btn-bd-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: rgb(255, 255, 255);
+    --bs-btn-bg: rgba(103, 108, 219, 1);
+    --bs-btn-border-color: var(--bs-btn-bg);
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: var(--bs-btn-bg);
+    --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+    --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+}
+
+.nav-item svg path {
+    fill: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3e%3cpath stroke="%23fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22" /%3e%3c/svg%3e');
+}
+
+.navbar-toggler {
+    border: var(--bs-border-width) solid rgb(255, 255, 255);
+}
+
+.navbar {
+    --bs-navbar-color: none;
+}
+
+.navbar .nav-link.active {
+    color: rgba(103, 108, 219, 1) !important;
+}
+
